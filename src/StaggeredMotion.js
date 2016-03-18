@@ -32,12 +32,14 @@ function shouldStopAnimationAll(
 }
 
 const StaggeredMotion = React.createClass({
+  /*
   propTypes: {
     // TOOD: warn against putting a config in here
     defaultStyles: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.number)),
     styles: PropTypes.func.isRequired,
     children: PropTypes.func.isRequired,
   },
+  */
 
   getInitialState(): StaggeredMotionState {
     const {defaultStyles, styles} = this.props;

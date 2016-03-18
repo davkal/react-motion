@@ -183,6 +183,7 @@ type TransitionMotionState = {
 };
 
 const TransitionMotion = React.createClass({
+  /*
   propTypes: {
     defaultStyles: PropTypes.arrayOf(PropTypes.shape({
       key: PropTypes.string.isRequired,
@@ -204,6 +205,7 @@ const TransitionMotion = React.createClass({
     willLeave: PropTypes.func,
     willEnter: PropTypes.func,
   },
+  */
 
   getDefaultProps(): {willEnter: WillEnter, willLeave: WillLeave} {
     return {

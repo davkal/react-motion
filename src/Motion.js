@@ -18,6 +18,7 @@ type MotionState = {
 };
 
 const Motion = React.createClass({
+  /*
   propTypes: {
     // TOOD: warn against putting a config in here
     defaultStyle: PropTypes.objectOf(PropTypes.number),
@@ -28,6 +29,7 @@ const Motion = React.createClass({
     children: PropTypes.func.isRequired,
     onRest: PropTypes.func,
   },
+  */
 
   getInitialState(): MotionState {
     const {defaultStyle, style} = this.props;
